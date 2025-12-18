@@ -10,5 +10,7 @@ package paquete6;
  * @author reroes
  */
 public class Problema06 {
-
+    public static void main(String[] args) {
+        
+    }
 }

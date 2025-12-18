@@ -18,7 +18,7 @@ public class Problema05 {
             {"Emma Escobar", "Lori Flores"},
             {"Steven West", "Toni Martin"}
         };
-
+        String inicial = "";
         String reporte = "";
 
         reporte = String.format("Estudiantes que inician con S, P o T:\n");
@@ -26,7 +26,7 @@ public class Problema05 {
         for (int i = 0; i < estudiantes.length; i++) {
             for (int j = 0; j < estudiantes[i].length; j++) {
 
-                String inicial = estudiantes[i][j].substring(0, 1);
+                inicial = estudiantes[i][j].substring(0, 1);
 
                 if (inicial.equals("S") || inicial.equals("P")
                         || inicial.equals("T")) {

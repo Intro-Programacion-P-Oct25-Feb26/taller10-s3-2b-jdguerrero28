@@ -7,7 +7,7 @@ package demo;
 
 import java.util.Locale;
 import java.util.Scanner;
-
+//r
 /**
  *
  * @author reroes
